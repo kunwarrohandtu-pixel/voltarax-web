@@ -1,6 +1,6 @@
-import React from "react";
 'use client'
 
+import React from "react";
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { FaArrowRight, FaLeaf, FaSun, FaRecycle, FaBolt, FaShieldAlt, FaAward } from 'react-icons/fa'
