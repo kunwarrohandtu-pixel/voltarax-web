@@ -55,22 +55,22 @@ npm install
 Create a `.env` file in the root with the following:
 
 ```env
-# Database
-DATABASE_URL="mongodb+srv://voltaraxpvtltd_db_user:22tIfh7eCtZJoFVK@cluster0.qyumhoz.mongodb.net/voltarax?retryWrites=true&w=majority"
+# MongoDB connection string (replace with your own)
+DATABASE_URL="mongodb+srv://<username>:<password>@cluster0.xxxxx.mongodb.net/voltarax?retryWrites=true&w=majority"
 
-# NextAuth
-NEXTAUTH_SECRET="nxqKG43cTtDlxZcD/I2M2YKPohSgTKuQ5FB/eYnvUHw="
+# NextAuth (generate a secure secret with `openssl rand -base64 32`)
+NEXTAUTH_SECRET="your-secret-key"
 NEXTAUTH_URL="http://localhost:3000"
 
-# Email
+# Email (SMTP – Gmail example)
 EMAIL_SERVER="smtp.gmail.com"
 EMAIL_PORT="587"
-EMAIL_USER="voltaraxpvtltd@gmail.com"
-EMAIL_PASSWORD="qdokkvfhvvwlfcfv"
+EMAIL_USER="your-email@gmail.com"
+EMAIL_PASSWORD="your-app-password"
 
-# Admin
-ADMIN_EMAIL="admin@voltarax.com"
-ADMIN_PASSWORD="admin123"
+# Admin credentials (for login)
+ADMIN_EMAIL="admin@gmail.com"
+ADMIN_PASSWORD="123"
 ```
 
 ### 4. Generate Prisma client and push schema
@@ -97,8 +97,8 @@ Access the admin panel at:
 [http://localhost:3000/admin/login](http://localhost:3000/admin/login)
 
 **Login credentials** (as set in `.env`):
-- Email: `admin@voltarax.com`
-- Password: `admin123`
+- Email: `admin@gmail.com`
+- Password: `123`
 
 From the dashboard, you can view all submitted contacts, applications, and newsletter subscribers.
 
