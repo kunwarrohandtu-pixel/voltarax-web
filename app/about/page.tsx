@@ -1,5 +1,6 @@
-import React from "react";
 'use client'
+
+import React from "react";
 import Link from 'next/link'
 import { FaLeaf, FaRecycle, FaAward, FaSun } from 'react-icons/fa'
 import AnimatedSection from '@/components/ui/AnimatedSection'
