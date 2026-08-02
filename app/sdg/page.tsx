@@ -1,3 +1,4 @@
+import React from "react";
 'use client'
 import { motion } from 'framer-motion'
 import { FaLeaf, FaIndustry, FaCity, FaCloudSun } from 'react-icons/fa'

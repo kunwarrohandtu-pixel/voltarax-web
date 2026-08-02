@@ -1,3 +1,4 @@
+import React from "react";
 'use client'
 import { motion } from 'framer-motion'
 import { FaLeaf, FaRecycle, FaBolt, FaShieldAlt, FaAward, FaGlobe, FaHandshake, FaSun } from 'react-icons/fa'

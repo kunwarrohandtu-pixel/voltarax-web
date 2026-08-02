@@ -8,11 +8,10 @@ const nextConfig = {
       },
     ],
   },
-  experimental: {
-    serverActions: {
-      allowedOrigins: ['localhost:3000'],
-    },
-  },
+  // Remove experimental entirely (or keep only if needed)
+  // experimental: {
+  //   serverActions: true, // Next.js 14 enables by default
+  // },
 }
 
 module.exports = nextConfig

@@ -1,3 +1,4 @@
+import React from "react";
 import { getServerSession } from 'next-auth'
 import { redirect } from 'next/navigation'
 import { prisma } from '@/lib/db/mongodb'

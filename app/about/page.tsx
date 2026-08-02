@@ -1,3 +1,4 @@
+import React from "react";
 'use client'
 import Link from 'next/link'
 import { FaLeaf, FaRecycle, FaAward, FaSun } from 'react-icons/fa'
