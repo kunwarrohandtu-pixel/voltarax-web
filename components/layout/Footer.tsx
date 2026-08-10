@@ -38,7 +38,7 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4 text-white">Contact Us</h3>
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3"><FaMapMarkerAlt className="text-[#66BB6A] mt-1" /><span className="text-white/60">A Block, 171, Shastri Nagar, Delhi - 110052</span></li>
-              <li className="flex items-center gap-3"><FaPhone className="text-[#66BB6A]" /><span className="text-white/60">+91 83839451859</span></li>
+              <li className="flex items-center gap-3"><FaPhone className="text-[#66BB6A]" /><span className="text-white/60">+91 8383941859</span></li>
               <li className="flex items-center gap-3"><FaEnvelope className="text-[#66BB6A]" /><span className="text-white/60">voltaraxpvtltd@gmail.com</span></li>
             </ul>
           </motion.div>
